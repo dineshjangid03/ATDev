@@ -32,7 +32,7 @@ To build and run the project, follow these steps:
 ## API Endpoints
 The following API endpoints are available:
 
-#### Inserts a new student record into the system.
+#### 1. Inserts a new student record into the system.
 
 - Endpoint: POST /insert
 
@@ -57,7 +57,7 @@ Response:
 }
 ```
 
-#### Retrieves all the student records from the system.
+#### 2. Retrieves all the student records from the system.
 
 - Endpoint: GET /get
 
@@ -82,7 +82,7 @@ Response:
 ```
 
 
-#### Retrieves a student record by their ID.
+#### 3. Retrieves a student record by their ID.
 
 - Endpoint: GET /get/{studentId}
 
@@ -100,7 +100,7 @@ Response:
 }
 ```
 
-#### Updates an existing student record in the system.
+#### 4. Updates an existing student record in the system.
 
 - Endpoint: PUT /update
 
@@ -126,7 +126,7 @@ Response:
 }
 ```
 
-#### Deletes a student record from the system.
+#### 5. Deletes a student record from the system.
 
 - Endpoint: DELETE /delete/{studentId}
 
